@@ -33,13 +33,33 @@ $grid-breakpoints: (
 
 }
 
-html {
-    background: aquamarine;
-    
-}
+
 
 textarea {
     width: 100%;
     text-align: center;
     box-shadow: 2px 4px 8px 2px;
+}
+
+img {
+    width: 100%;
+    margin-top: 0;
+    position: absolute;
+}
+
+.words {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+    color: rgb(61, 208, 228);
+    
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100px;
+        
+    }
+
+
 }
